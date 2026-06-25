@@ -25,6 +25,8 @@ const (
 	StoreMacAppStore = "MAC_APP_STORE"
 	// StorePromotional identifies purchases granted via promotional credits.
 	StorePromotional = "PROMOTIONAL"
+	// StoreTestStore identifies purchases via the test store
+	StoreTestStore = "TEST_STORE"
 )
 
 var validStoreValues = []string{
@@ -33,6 +35,7 @@ var validStoreValues = []string{
 	StoreStripe,
 	StoreMacAppStore,
 	StorePromotional,
+	StoreTestStore,
 }
 
 func newStore(s string) (*store, error) {
