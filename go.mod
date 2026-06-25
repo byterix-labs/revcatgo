@@ -1,4 +1,4 @@
-module github.com/iktakahiro/revcatgo
+module github.com/byterix-labs/revcatgo
 
 go 1.25
 
